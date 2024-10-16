@@ -7,7 +7,6 @@ This project is a sophisticated chatbot application that leverages **Natural Lan
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [How to Run](#how-to-run)
-- [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
 - [Customization](#customization)
 - [Sample Screenshots](#sample-screenshots)
@@ -45,7 +44,7 @@ This project is a sophisticated chatbot application that leverages **Natural Lan
    ```
 2. Navigate to the project directory:
    ```bash
-   cd chatbot-project
+   cd NLP-Powered-Chatbot-Built-with-Streamlit
    ```
 3. Install the required dependencies:
    ```bash
@@ -71,26 +70,12 @@ This project is a sophisticated chatbot application that leverages **Natural Lan
 
 3. Interact with the chatbot by typing your questions in the input box. The chatbot will respond with pre-trained answers based on the identified intent.
 
-## Project Structure
-
-```
-chatbot-project/
-│
-├── chatbot.py            # Main script to run the chatbot
-├── intents.json          # JSON file containing chatbot intents, patterns, and responses
-├── README.md             # Documentation
-├── requirements.txt      # Python package dependencies
-└── assets/
-    ├── screenshots/      # Folder containing output images and screenshots
-    └── banner.png        # Chatbot banner image
-```
 
 ### File Descriptions:
 
 - **`chatbot.py`**: Contains the main logic for the chatbot, including text vectorization, model training, and user interaction.
 - **`intents.json`**: Stores the chatbot's various intents (e.g., greetings, jokes, AI, etc.), along with corresponding user input patterns and responses.
 - **`requirements.txt`**: Lists all Python dependencies required to run the chatbot.
-- **`assets/screenshots/`**: Stores screenshots and visual output of the chatbot in action.
 
 ## How It Works
 
@@ -123,10 +108,10 @@ To modify the chatbot’s behavior, you can edit the `intents.json` file:
 ## Sample Screenshots
 
 ### Chatbot Web Interface
-![Chatbot Interface](![image](https://github.com/user-attachments/assets/9048e7df-445a-45e7-9684-f0a1cedd6af3))
+![Chatbot Interface](https://github.com/user-attachments/assets/2a42d607-bea3-4ab3-a0f8-f8ea06163817)
 
 ### Intent and Response Example
-![Chatbot Interaction](![Screenshot 2024-10-14 173249](https://github.com/user-attachments/assets/d442b68e-71da-44ad-aee3-2b5f8ffb52dc))
+![Chatbot Interaction](https://github.com/user-attachments/assets/d442b68e-71da-44ad-aee3-2b5f8ffb52dc)
 
 ![Screenshot 2024-10-14 173704](https://github.com/user-attachments/assets/f051ab44-e1ec-4ed9-9ba7-a04e1ca1a987)
 
@@ -138,14 +123,3 @@ To modify the chatbot’s behavior, you can edit the `intents.json` file:
 
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
-
----
-
-Feel free to enhance the **README** further with your specific project details and the necessary images.
-
-To add images in the **README**, replace `path_to_your_screenshot_image.png` with the actual relative path to your image files.
-
-Example:
-```markdown
-![Chatbot Interface](assets/screenshots/chatbot_interface.png)
-```
