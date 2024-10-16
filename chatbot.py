@@ -1,10 +1,10 @@
 # Chatbot Companion: Ask Anything
 
 import os
-import nltk
-import ssl
-import streamlit as st
 import random
+import ssl
+import nltk
+import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
@@ -228,7 +228,7 @@ for intent in intents:
     for pattern in intent['patterns']:
         training_sentences.append(pattern)
         training_labels.append(intent['tag'])
-
+        
 # Vectorization and model training
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(training_sentences)
