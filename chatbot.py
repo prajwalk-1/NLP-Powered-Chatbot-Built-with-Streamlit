@@ -5,8 +5,8 @@ import random
 import ssl
 import nltk
 import streamlit as st
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 ssl._create_default_https_context = ssl._create_unverified_context
 nltk.data.path.append(os.path.abspath("nltk_data"))
@@ -245,7 +245,7 @@ def chatbot(input_text):
             return response
 
     return "I'm sorry, I don't understand."
-
+    
 # Streamlit interface
 st.title("Chatbot Companion: Ask Anything")
 user_input = st.text_input("You: ")
